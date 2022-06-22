@@ -2,4 +2,5 @@
 import {{localImport (toEntityName tscName)}} from './{{toFileName tscName}}'
 {{/entities}}
 
+// AAA
 export { {{#entities}}{{toEntityName tscName}},{{/entities~}} }
